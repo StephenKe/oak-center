@@ -1,0 +1,102 @@
+@import (reference) '~antd/es/style/themes/index';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding-top: 80px;
+  overflow: auto;
+  // background: @layout-body-background;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.header {
+  // top: 65px;
+  // right: 100px;
+  // left: 0;
+  z-index: 1;
+  padding-right: 80px;
+}
+
+.logo {
+  margin-top: -65px;
+  // position: absolute;
+  // top: 46px;
+  // left: 80px;
+  margin-left: 80px;
+  color: #fff;
+
+  > img {
+    position: relative;
+    top: -5px;
+    left: 0;
+    width: 80px;
+  }
+  > span {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 25px;
+  }
+}
+
+.imgMobile {
+  position: absolute !important;
+  top: 5px !important;
+  left: -20px !important;
+}
+
+.signBtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  // width: 100%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.lang {
+  width: 100%;
+  height: 40px;
+  line-height: 44px;
+  text-align: right;
+  :global(.ant-dropdown-trigger) {
+    margin-right: 24px;
+  }
+}
+
+.content {
+  flex: 1;
+  padding: 32px 0;
+}
+
+.chatContainer {
+  position: relative;
+  height: 500px;
+  margin: 130px auto;
+}
+
+@media (min-width: @screen-md-min) {
+  .container {
+    // background-image: url('https://gw.alipayobjects.com/zos/rmsportal/TVYTbAXWheQpRcWDaDMu.svg');
+    background-color: rgba(0, 0, 0, 0.75);
+    background-repeat: no-repeat;
+    background-position: center 110px;
+    background-size: 100%;
+  }
+
+  .content {
+    padding: 32px 0 24px;
+  }
+}
+
+.icon {
+  margin-left: 8px;
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 24px;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: color 0.3s;
+
+  &:hover {
+    color: @primary-color;
+  }
+}

@@ -1,0 +1,18 @@
+export default {
+  'component.globalHeader.search': '검색',
+  'component.globalHeader.search.example1': '검색 예제 1',
+  'component.globalHeader.search.example2': '검색 예제 2',
+  'component.globalHeader.search.example3': '검색 예제 3',
+  'component.globalHeader.help': '돕다',
+  'component.globalHeader.notification': '통지',
+  'component.globalHeader.notification.empty': '모든 알림을 보았습니다.',
+  'component.globalHeader.message': '소식',
+  'component.globalHeader.message.empty': '모든 메시지를 보았습니다.',
+  'component.globalHeader.event': '이벤트',
+  'component.globalHeader.event.empty': '모든 이벤트를 보았습니다.',
+  'component.noticeIcon.clear': '분명하다',
+  'component.noticeIcon.cleared': '분명하다',
+  'component.noticeIcon.empty': '알림 없음',
+  'component.noticeIcon.view-more': '추가 정보 보기',
+  'component.rightContent.keplr.title': '주소 선택',
+};
