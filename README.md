@@ -1,26 +1,16 @@
-# Ant Design Pro
+# OAK Center
 
-This project is initialized with [Ant Design Pro](https://pro.ant.design). Follow is the quick guide for how to use.
+This project provides users with a convenient UI interface to use the OAK network.
 
 ## Environment Prepare
 
 Install `node_modules`:
 
 ```bash
-npm install
-```
-
-or
-
-```bash
 yarn
 ```
 
 ## Provided Scripts
-
-Ant Design Pro provides some useful script to help you quick start and build with web project, code style check and test.
-
-Scripts provided in `package.json`. It's safe to modify or add additional script:
 
 ### Start project
 
@@ -34,24 +24,16 @@ npm start
 npm run build
 ```
 
-### Check code style
+## Test Account
 
-```bash
-npm run lint
+Sender mnemonic:
+
+```
+meat entire knee tuition trap jar age warfare tuna flower ask human
 ```
 
-You can also use script to auto fix some lint error:
+Receiver address:
 
-```bash
-npm run lint:fix
 ```
-
-### Test code
-
-```bash
-npm test
+68ehxWHXYi5UESCSbBquoj5U8qzR99AUyedJAARN3shezeZs
 ```
-
-## More
-
-You can view full document on our [official website](https://pro.ant.design). And welcome any feedback in our [github](https://github.com/ant-design/ant-design-pro).
